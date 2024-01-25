@@ -157,7 +157,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -168,10 +168,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -195,7 +195,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -236,12 +236,12 @@ TextureImporter:
       name: Paddle_Parts_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 79
-        width: 8
-        height: 11
+        x: 6
+        y: 52
+        width: 7
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -257,12 +257,12 @@ TextureImporter:
       name: Paddle_Parts_1
       rect:
         serializedVersion: 2
-        x: 31
-        y: 79
-        width: 9
-        height: 11
+        x: 19
+        y: 52
+        width: 7
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -278,12 +278,12 @@ TextureImporter:
       name: Paddle_Parts_2
       rect:
         serializedVersion: 2
-        x: 47
-        y: 0
-        width: 21
-        height: 90
+        x: 27
+        y: 52
+        width: 6
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -299,12 +299,12 @@ TextureImporter:
       name: Paddle_Parts_3
       rect:
         serializedVersion: 2
-        x: 79
-        y: 79
-        width: 8
-        height: 11
+        x: 35
+        y: 52
+        width: 3
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -320,12 +320,12 @@ TextureImporter:
       name: Paddle_Parts_4
       rect:
         serializedVersion: 2
-        x: 95
-        y: 0
-        width: 21
-        height: 90
+        x: 35
+        y: 42
+        width: 3
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -341,12 +341,12 @@ TextureImporter:
       name: Paddle_Parts_5
       rect:
         serializedVersion: 2
-        x: 127
-        y: 79
-        width: 6
-        height: 11
+        x: 55
+        y: 52
+        width: 4
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -362,12 +362,12 @@ TextureImporter:
       name: Paddle_Parts_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 63
-        width: 8
-        height: 11
+        x: 6
+        y: 42
+        width: 7
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -383,12 +383,12 @@ TextureImporter:
       name: Paddle_Parts_7
       rect:
         serializedVersion: 2
-        x: 15
-        y: 64
-        width: 6
-        height: 9
+        x: 14
+        y: 43
+        width: 4
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -404,12 +404,12 @@ TextureImporter:
       name: Paddle_Parts_8
       rect:
         serializedVersion: 2
-        x: 31
-        y: 63
-        width: 9
-        height: 11
+        x: 19
+        y: 42
+        width: 7
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -425,12 +425,12 @@ TextureImporter:
       name: Paddle_Parts_9
       rect:
         serializedVersion: 2
-        x: 47
-        y: 63
-        width: 8
-        height: 11
+        x: 27
+        y: 42
+        width: 6
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -446,12 +446,12 @@ TextureImporter:
       name: Paddle_Parts_10
       rect:
         serializedVersion: 2
-        x: 79
-        y: 63
-        width: 8
-        height: 11
+        x: 35
+        y: 32
+        width: 3
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -467,12 +467,12 @@ TextureImporter:
       name: Paddle_Parts_11
       rect:
         serializedVersion: 2
-        x: 95
-        y: 63
-        width: 6
-        height: 11
+        x: 35
+        y: 22
+        width: 3
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -488,12 +488,12 @@ TextureImporter:
       name: Paddle_Parts_12
       rect:
         serializedVersion: 2
-        x: 127
-        y: 63
-        width: 6
-        height: 11
+        x: 55
+        y: 42
+        width: 4
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -509,12 +509,12 @@ TextureImporter:
       name: Paddle_Parts_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 47
-        width: 8
-        height: 11
+        x: 6
+        y: 32
+        width: 7
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -530,12 +530,12 @@ TextureImporter:
       name: Paddle_Parts_14
       rect:
         serializedVersion: 2
-        x: 15
-        y: 48
-        width: 6
-        height: 9
+        x: 14
+        y: 33
+        width: 4
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -551,12 +551,12 @@ TextureImporter:
       name: Paddle_Parts_15
       rect:
         serializedVersion: 2
-        x: 31
-        y: 47
-        width: 9
-        height: 11
+        x: 19
+        y: 32
+        width: 7
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -572,12 +572,12 @@ TextureImporter:
       name: Paddle_Parts_16
       rect:
         serializedVersion: 2
-        x: 47
-        y: 47
-        width: 8
-        height: 11
+        x: 27
+        y: 32
+        width: 6
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -593,12 +593,12 @@ TextureImporter:
       name: Paddle_Parts_17
       rect:
         serializedVersion: 2
-        x: 79
-        y: 47
-        width: 8
-        height: 11
+        x: 35
+        y: 12
+        width: 3
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -614,12 +614,12 @@ TextureImporter:
       name: Paddle_Parts_18
       rect:
         serializedVersion: 2
-        x: 95
-        y: 47
-        width: 6
-        height: 11
+        x: 35
+        y: 2
+        width: 3
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -635,12 +635,12 @@ TextureImporter:
       name: Paddle_Parts_19
       rect:
         serializedVersion: 2
-        x: 127
-        y: 47
-        width: 6
-        height: 11
+        x: 55
+        y: 32
+        width: 4
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -656,12 +656,12 @@ TextureImporter:
       name: Paddle_Parts_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 31
-        width: 8
-        height: 11
+        x: 6
+        y: 22
+        width: 7
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -677,12 +677,12 @@ TextureImporter:
       name: Paddle_Parts_21
       rect:
         serializedVersion: 2
-        x: 15
-        y: 32
-        width: 6
-        height: 9
+        x: 14
+        y: 23
+        width: 4
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -698,12 +698,12 @@ TextureImporter:
       name: Paddle_Parts_22
       rect:
         serializedVersion: 2
-        x: 31
-        y: 31
-        width: 9
-        height: 11
+        x: 19
+        y: 22
+        width: 7
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -719,12 +719,12 @@ TextureImporter:
       name: Paddle_Parts_23
       rect:
         serializedVersion: 2
-        x: 47
-        y: 31
-        width: 8
-        height: 11
+        x: 27
+        y: 22
+        width: 6
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -740,12 +740,12 @@ TextureImporter:
       name: Paddle_Parts_24
       rect:
         serializedVersion: 2
-        x: 79
-        y: 31
-        width: 8
-        height: 11
+        x: 39
+        y: 2
+        width: 6
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -761,12 +761,12 @@ TextureImporter:
       name: Paddle_Parts_25
       rect:
         serializedVersion: 2
-        x: 95
-        y: 31
+        x: 39
+        y: 12
         width: 6
-        height: 11
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -782,12 +782,12 @@ TextureImporter:
       name: Paddle_Parts_26
       rect:
         serializedVersion: 2
-        x: 127
-        y: 31
-        width: 6
-        height: 11
+        x: 55
+        y: 22
+        width: 4
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -803,12 +803,12 @@ TextureImporter:
       name: Paddle_Parts_27
       rect:
         serializedVersion: 2
-        x: 0
-        y: 15
-        width: 8
-        height: 11
+        x: 6
+        y: 12
+        width: 7
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -824,12 +824,12 @@ TextureImporter:
       name: Paddle_Parts_28
       rect:
         serializedVersion: 2
-        x: 15
-        y: 16
-        width: 6
-        height: 9
+        x: 14
+        y: 13
+        width: 4
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -845,12 +845,12 @@ TextureImporter:
       name: Paddle_Parts_29
       rect:
         serializedVersion: 2
-        x: 31
-        y: 15
-        width: 9
-        height: 11
+        x: 19
+        y: 12
+        width: 7
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -866,12 +866,12 @@ TextureImporter:
       name: Paddle_Parts_30
       rect:
         serializedVersion: 2
-        x: 47
-        y: 15
-        width: 8
-        height: 11
+        x: 27
+        y: 12
+        width: 6
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -887,12 +887,12 @@ TextureImporter:
       name: Paddle_Parts_31
       rect:
         serializedVersion: 2
-        x: 79
-        y: 15
-        width: 8
-        height: 11
+        x: 39
+        y: 22
+        width: 6
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -908,12 +908,12 @@ TextureImporter:
       name: Paddle_Parts_32
       rect:
         serializedVersion: 2
-        x: 95
-        y: 15
+        x: 39
+        y: 32
         width: 6
-        height: 11
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -929,12 +929,12 @@ TextureImporter:
       name: Paddle_Parts_33
       rect:
         serializedVersion: 2
-        x: 127
-        y: 15
-        width: 6
-        height: 11
+        x: 55
+        y: 12
+        width: 4
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -950,12 +950,12 @@ TextureImporter:
       name: Paddle_Parts_34
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 8
-        height: 10
+        x: 6
+        y: 2
+        width: 7
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -971,12 +971,12 @@ TextureImporter:
       name: Paddle_Parts_35
       rect:
         serializedVersion: 2
-        x: 15
-        y: 0
-        width: 6
-        height: 9
+        x: 14
+        y: 3
+        width: 4
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -992,12 +992,12 @@ TextureImporter:
       name: Paddle_Parts_36
       rect:
         serializedVersion: 2
-        x: 31
-        y: 0
-        width: 9
-        height: 10
+        x: 19
+        y: 2
+        width: 7
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1013,12 +1013,12 @@ TextureImporter:
       name: Paddle_Parts_37
       rect:
         serializedVersion: 2
-        x: 47
-        y: 0
-        width: 8
-        height: 10
+        x: 27
+        y: 2
+        width: 6
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1034,12 +1034,12 @@ TextureImporter:
       name: Paddle_Parts_38
       rect:
         serializedVersion: 2
-        x: 79
-        y: 0
-        width: 8
-        height: 10
+        x: 39
+        y: 42
+        width: 6
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1055,12 +1055,12 @@ TextureImporter:
       name: Paddle_Parts_39
       rect:
         serializedVersion: 2
-        x: 95
-        y: 0
+        x: 39
+        y: 52
         width: 6
-        height: 10
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1076,12 +1076,12 @@ TextureImporter:
       name: Paddle_Parts_40
       rect:
         serializedVersion: 2
-        x: 127
-        y: 0
-        width: 6
-        height: 10
+        x: 55
+        y: 2
+        width: 4
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1093,17 +1093,237 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Paddle_Parts_41
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 52
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008468d697883354eb38038961d2ccd7
+      internalID: -393540407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle_Parts_42
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 42
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee5d92d3bcc7f44dac520272e7ccce4
+      internalID: 1443120367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle_Parts_43
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 32
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222eec0bf771e31418e14595652df00a
+      internalID: 358988374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle_Parts_44
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 22
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5223155284304a54d8ee1dbdebc87260
+      internalID: 1605832326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle_Parts_45
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 12
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbedd0c50d0064c4fb3ea646292fca62
+      internalID: -2098389954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle_Parts_46
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 2
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd5e5b1df574434aacddc3a45aec625
+      internalID: -937447544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle_Parts_47
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 2
+        width: 3
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52b05fd8cb59ba4ebb2af910c360f32
+      internalID: -94777811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle_Parts_48
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 12
+        width: 3
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798b64156bb8e10468eceb25fe06ca29
+      internalID: 1523046812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5d80fc73ff2055d4790c3f26cf8b7f11
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Paddle_Parts_0: 4707734356320092710
+      Paddle_Parts_1: 4163691474097547603
+      Paddle_Parts_10: -3305267078155810603
+      Paddle_Parts_11: 8218542942107190364
+      Paddle_Parts_12: -8088334073371606779
+      Paddle_Parts_13: -2010381922339529118
+      Paddle_Parts_14: 3489365917660238631
+      Paddle_Parts_15: 5770708593675822136
+      Paddle_Parts_16: 2580852709695709676
+      Paddle_Parts_17: -3172474006247660176
+      Paddle_Parts_18: 1203597586600261965
+      Paddle_Parts_19: 3005219238837840598
+      Paddle_Parts_2: 8573142675107371620
+      Paddle_Parts_20: -896848091331059146
+      Paddle_Parts_21: -4865638532892907805
+      Paddle_Parts_22: -1449738652719148966
+      Paddle_Parts_23: 5390857099944454697
+      Paddle_Parts_24: 1715015063715352976
+      Paddle_Parts_25: 3069168415262597577
+      Paddle_Parts_26: -3781263175267690577
+      Paddle_Parts_27: -8380762615104191706
+      Paddle_Parts_28: -4347575511501441899
+      Paddle_Parts_29: -8528222270944453443
+      Paddle_Parts_3: -3496607763610920691
+      Paddle_Parts_30: -3728051051425245368
+      Paddle_Parts_31: 8407420133534316152
+      Paddle_Parts_32: 2087674658178288828
+      Paddle_Parts_33: -6932603112756986377
+      Paddle_Parts_34: -2827718159569486744
+      Paddle_Parts_35: 2059742944776135669
+      Paddle_Parts_36: 3140053061319649215
+      Paddle_Parts_37: 3937609597772097073
+      Paddle_Parts_38: 7975565515715976844
+      Paddle_Parts_39: -6723182603371518265
+      Paddle_Parts_4: -3569535064573067736
+      Paddle_Parts_40: -7744565775778706932
+      Paddle_Parts_41: -898914453
+      Paddle_Parts_42: 315917295
+      Paddle_Parts_43: -393540407
+      Paddle_Parts_44: 1443120367
+      Paddle_Parts_45: 358988374
+      Paddle_Parts_46: 1605832326
+      Paddle_Parts_47: -2098389954
+      Paddle_Parts_48: -937447544
+      Paddle_Parts_49: -94777811
+      Paddle_Parts_5: 6748707150448952199
+      Paddle_Parts_50: 1523046812
+      Paddle_Parts_51: 586070551
+      Paddle_Parts_6: 2008116362723452046
+      Paddle_Parts_7: 7639011866518341118
+      Paddle_Parts_8: -4441702309728584159
+      Paddle_Parts_9: -5738240989238338795
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

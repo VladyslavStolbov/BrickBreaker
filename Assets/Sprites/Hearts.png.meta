@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,10 +69,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -137,12 +137,12 @@ TextureImporter:
       name: Hearts_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 2
-        width: 13
-        height: 12
+        x: 2
+        y: 3
+        width: 11
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -158,12 +158,12 @@ TextureImporter:
       name: Hearts_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 2
-        width: 13
-        height: 12
+        x: 18
+        y: 3
+        width: 11
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -179,12 +179,12 @@ TextureImporter:
       name: Hearts_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 2
-        width: 13
-        height: 12
+        x: 34
+        y: 3
+        width: 11
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -200,12 +200,12 @@ TextureImporter:
       name: Hearts_3
       rect:
         serializedVersion: 2
-        x: 49
-        y: 2
-        width: 13
-        height: 12
+        x: 50
+        y: 3
+        width: 11
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -221,12 +221,12 @@ TextureImporter:
       name: Hearts_4
       rect:
         serializedVersion: 2
-        x: 65
-        y: 2
-        width: 13
-        height: 12
+        x: 66
+        y: 3
+        width: 11
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -242,12 +242,12 @@ TextureImporter:
       name: Hearts_5
       rect:
         serializedVersion: 2
-        x: 81
-        y: 2
-        width: 13
-        height: 12
+        x: 82
+        y: 3
+        width: 11
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -263,12 +263,12 @@ TextureImporter:
       name: Hearts_6
       rect:
         serializedVersion: 2
-        x: 97
-        y: 2
-        width: 13
-        height: 12
+        x: 98
+        y: 3
+        width: 11
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -284,12 +284,12 @@ TextureImporter:
       name: Hearts_7
       rect:
         serializedVersion: 2
-        x: 114
-        y: 2
-        width: 13
-        height: 12
+        x: 115
+        y: 3
+        width: 11
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -304,14 +304,22 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e17b9409e8a53fb4dadcc15e611b3fd9
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hearts_0: 4432793351920879750
+      Hearts_1: 5642012044021194823
+      Hearts_2: 8124259339964715380
+      Hearts_3: 7685371531485235544
+      Hearts_4: 4160753575623616581
+      Hearts_5: 366615594880959974
+      Hearts_6: -35186699611894704
+      Hearts_7: 3631281003583422710
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
