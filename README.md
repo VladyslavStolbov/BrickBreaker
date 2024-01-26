@@ -15,9 +15,9 @@
         - [X] Import any necessary assets (textures, sound effects, etc.).
 - [ ] Scene Setup
     - [ ] Design the game scene:
-        - [ ] Create the game board using Unity's GameObjects.
-        - [ ] Add a paddle at the bottom of the screen.
-        - [ ] Place bricks in a grid pattern at the top of the screen.
+        - [X] Create the game board using Unity's GameObjects.
+        - [X] Add a paddle at the bottom of the screen.
+        - [X] Place bricks in a grid pattern at the top of the screen.
         - [ ] Set up the camera and lighting.
 - [ ] Player Controls
     - [ ] Implement paddle movement:
