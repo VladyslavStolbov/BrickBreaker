@@ -13,12 +13,12 @@
     - [X] Set up your project structure:
         - [X] Create folders for assets (e.g., Materials, Prefabs, Scenes, Scripts).
         - [X] Import any necessary assets (textures, sound effects, etc.).
-- [ ] Scene Setup
-    - [ ] Design the game scene:
+- [X] Scene Setup
+    - [X] Design the game scene:
         - [X] Create the game board using Unity's GameObjects.
         - [X] Add a paddle at the bottom of the screen.
         - [X] Place bricks in a grid pattern at the top of the screen.
-        - [ ] Set up the camera and lighting.
+        - [X] Set up the camera and lighting.
 - [ ] Player Controls
     - [ ] Implement paddle movement:
         - [ ] Write a script to handle paddle movement based on player input (e.g., arrow keys or touch input).
