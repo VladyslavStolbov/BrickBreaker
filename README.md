@@ -19,9 +19,9 @@
         - [X] Add a paddle at the bottom of the screen.
         - [X] Place bricks in a grid pattern at the top of the screen.
         - [X] Set up the camera and lighting.
-- [ ] Player Controls
-    - [ ] Implement paddle movement:
-        - [ ] Write a script to handle paddle movement based on player input (e.g., arrow keys or touch input).
+- [X] Player Controls
+    - [X] Implement paddle movement:
+        - [X] Write a script to handle paddle movement based on player input (e.g., arrow keys or touch input).
 - [ ] Ball Mechanics
     - [ ] Create the ball object:
         - [ ] Instantiate a ball at the start of the game.
