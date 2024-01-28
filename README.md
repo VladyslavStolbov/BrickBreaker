@@ -23,9 +23,9 @@
     - [X] Implement paddle movement:
         - [X] Write a script to handle paddle movement based on player input (e.g., arrow keys or touch input).
 - [ ] Ball Mechanics
-    - [ ] Create the ball object:
-        - [ ] Instantiate a ball at the start of the game.
-        - [ ] Add physics components to the ball.
+    - [X] Create the ball object:
+        - [X] Instantiate a ball at the start of the game.
+        - [X] Add physics components to the ball.
     - [ ] Implement ball movement:
         - [ ] Write a script to handle the initial ball movement.
         - [ ] Add collision detection with walls and the paddle.
