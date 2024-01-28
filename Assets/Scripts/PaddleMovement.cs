@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PaddleMovement : MonoBehaviour
 {
-    private float _speed = 5f;
+    private float _speed = 7f;
     private float _minX;
     private float _maxX;
     
