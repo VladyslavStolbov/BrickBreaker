@@ -22,13 +22,13 @@
 - [X] Player Controls
     - [X] Implement paddle movement:
         - [X] Write a script to handle paddle movement based on player input (e.g., arrow keys or touch input).
-- [ ] Ball Mechanics
+- [X] Ball Mechanics
     - [X] Create the ball object:
         - [X] Instantiate a ball at the start of the game.
         - [X] Add physics components to the ball.
-    - [ ] Implement ball movement:
-        - [ ] Write a script to handle the initial ball movement.
-        - [ ] Add collision detection with walls and the paddle.
+    - [X] Implement ball movement:
+        - [X] Write a script to handle the initial ball movement.
+        - [X] Add collision detection with walls and the paddle.
 - [ ] Brick Mechanics
     - [ ] Implement brick destruction:
         - [ ] Write a script to handle collisions between the ball and bricks.
