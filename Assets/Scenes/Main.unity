@@ -413,7 +413,7 @@ GameObject:
   - component: {fileID: 156445125}
   m_Layer: 0
   m_Name: Ball
-  m_TagString: Untagged
+  m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -470,7 +470,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 3bbff03247e294047aa7d20c970cf5f2, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -584,7 +584,7 @@ GameObject:
   - component: {fileID: 216031633}
   m_Layer: 0
   m_Name: Wall_Bottom
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1147,7 +1147,7 @@ GameObject:
   - component: {fileID: 474906807}
   m_Layer: 0
   m_Name: Wall_Right
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1225,7 +1225,7 @@ GameObject:
   - component: {fileID: 488093240}
   m_Layer: 0
   m_Name: Wall_Top
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1684,6 +1684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93014fbc810778d488fa63111c458a06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Ball: {fileID: 156445120}
 --- !u!61 &661710100
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2196,7 +2197,7 @@ GameObject:
   - component: {fileID: 967136338}
   m_Layer: 0
   m_Name: Wall_Left
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
