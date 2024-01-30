@@ -9,7 +9,7 @@ public class PaddleMovement : MonoBehaviour
 {
     [SerializeField] private GameObject Ball;
     
-    private float _speed = 7f;
+    private float _speed = 10f;
     private float _minX;
     private float _maxX;
     private float _maxBounceAngle = 75;
