@@ -5,11 +5,13 @@ public class Brick : MonoBehaviour
 {
     public Sprite[] States;
 
+    private GameManager _gameManager;
     private SpriteRenderer _spriteRenderer;
     private int _health;
 
     private void Awake()
     {
+        _gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _health = States.Length;
     }
@@ -37,6 +39,7 @@ public class Brick : MonoBehaviour
         if (other.gameObject.name == "Ball")
         {
             Hit();
+            _gameManager.AddScore(10);
         }
     }
 }

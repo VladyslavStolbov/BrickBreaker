@@ -29,11 +29,11 @@
     - [X] Implement ball movement:
         - [X] Write a script to handle the initial ball movement.
         - [X] Add collision detection with walls and the paddle.
-- [ ] Brick Mechanics
-    - [ ] Implement brick destruction:
+- [X] Brick Mechanics
+    - [X] Implement brick destruction:
         - [X] Write a script to handle collisions between the ball and bricks.
         - [X] Remove destroyed bricks from the scene.
-        - [ ] Keep track of the player's score.
+        - [X] Keep track of the player's score.
 - [ ] Game Logic
     - [ ] Implement game over conditions:
         - [ ] Track the number of lives.
@@ -53,7 +53,8 @@
 - [ ] Polish and Optimization
     - [ ] Refine game elements:
         - [ ] Fine-tune paddle and ball movement.
-        - [ ] Adjust difficulty by changing brick layouts or ball speed.
+        - [ ] Adjust difficulty by changing brick layouts or ball speed
+        - [ ] Add a different amount of score for different type of bricks.
         - [ ] Add sound effects and background music.
     - [ ] Optimize performance:
         - [ ] Profile and optimize code for better performance.
