@@ -31,8 +31,8 @@
         - [X] Add collision detection with walls and the paddle.
 - [ ] Brick Mechanics
     - [ ] Implement brick destruction:
-        - [ ] Write a script to handle collisions between the ball and bricks.
-        - [ ] Remove destroyed bricks from the scene.
+        - [X] Write a script to handle collisions between the ball and bricks.
+        - [X] Remove destroyed bricks from the scene.
         - [ ] Keep track of the player's score.
 - [ ] Game Logic
     - [ ] Implement game over conditions:

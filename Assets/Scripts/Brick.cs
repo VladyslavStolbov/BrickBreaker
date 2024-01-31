@@ -1,8 +1,9 @@
+
 using UnityEngine;
 
 public class Brick : MonoBehaviour
 {
-    public Sprite[] Sprites;
+    public Sprite[] States;
 
     private SpriteRenderer _spriteRenderer;
     private int _health;
@@ -10,22 +11,25 @@ public class Brick : MonoBehaviour
     private void Awake()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
-        _health = Sprites.Length;
+        _health = States.Length;
     }
 
     private void Hit()
     {
         _health--;
-        UpdateSprite();
-        if (_health <= 0)
+        if (_health >= 0)
         {
-            Destroy(this);
+            UpdateSprite();
+        }
+        else
+        {
+            Destroy(gameObject);
         }
     }
 
     private void UpdateSprite()
     {
-        _spriteRenderer.sprite = Sprites[_health - 1];
+        _spriteRenderer.sprite = States[_health];
     }
 
     private void OnCollisionEnter2D(Collision2D other)

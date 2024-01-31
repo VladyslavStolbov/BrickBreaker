@@ -232,6 +232,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick
       objectReference: {fileID: 0}
+    - target: {fileID: 3539088464657478676, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -350,6 +354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick
       objectReference: {fileID: 0}
+    - target: {fileID: 3539088464657478676, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -370,7 +378,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &135727921
 Transform:
   m_ObjectHideFlags: 0
@@ -952,6 +960,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: States.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: Sprites.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'States.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2064899443243692740, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'States.Array.data[1]'
+      value: 
+      objectReference: {fileID: 801125056326043857, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'Sprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2064899443243692740, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'Sprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: 801125056326043857, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'Sprites.Array.data[2]'
+      value: 
+      objectReference: {fileID: 801125056326043857, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
     - target: {fileID: 3539088464657478676, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
       propertyPath: m_Name
       value: Brick
@@ -985,7 +1021,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &407171639
 Transform:
   m_ObjectHideFlags: 0
@@ -1436,6 +1472,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: States.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: Sprites.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'States.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2064899443243692740, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'States.Array.data[1]'
+      value: 
+      objectReference: {fileID: 801125056326043857, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'Sprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2064899443243692740, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'Sprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: 801125056326043857, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'Sprites.Array.data[2]'
+      value: 
+      objectReference: {fileID: 801125056326043857, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
     - target: {fileID: 3539088464657478676, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
       propertyPath: m_Name
       value: Brick
@@ -1501,6 +1565,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick
       objectReference: {fileID: 0}
+    - target: {fileID: 3539088464657478676, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1554,6 +1622,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: States.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: Sprites.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'States.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2064899443243692740, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'States.Array.data[1]'
+      value: 
+      objectReference: {fileID: 801125056326043857, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'Sprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2064899443243692740, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'Sprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: 801125056326043857, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'Sprites.Array.data[2]'
+      value: 
+      objectReference: {fileID: 801125056326043857, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
     - target: {fileID: 3539088464657478676, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
       propertyPath: m_Name
       value: Brick
@@ -1921,6 +2017,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick
       objectReference: {fileID: 0}
+    - target: {fileID: 3539088464657478676, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2111,6 +2211,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: States.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: Sprites.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'States.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2064899443243692740, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'States.Array.data[1]'
+      value: 
+      objectReference: {fileID: 801125056326043857, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'Sprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2064899443243692740, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'Sprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: 801125056326043857, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'Sprites.Array.data[2]'
+      value: 
+      objectReference: {fileID: 801125056326043857, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
     - target: {fileID: 3539088464657478676, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
       propertyPath: m_Name
       value: Brick
@@ -2172,6 +2300,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: States.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: Sprites.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'States.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2064899443243692740, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'States.Array.data[1]'
+      value: 
+      objectReference: {fileID: 801125056326043857, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'Sprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2064899443243692740, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'Sprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: 801125056326043857, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'Sprites.Array.data[2]'
+      value: 
+      objectReference: {fileID: 801125056326043857, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
     - target: {fileID: 3539088464657478676, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
       propertyPath: m_Name
       value: Brick
@@ -2311,6 +2467,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: States.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: Sprites.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'States.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2064899443243692740, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'States.Array.data[1]'
+      value: 
+      objectReference: {fileID: 801125056326043857, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'Sprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2064899443243692740, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'Sprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: 801125056326043857, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'Sprites.Array.data[2]'
+      value: 
+      objectReference: {fileID: 801125056326043857, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
     - target: {fileID: 3539088464657478676, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
       propertyPath: m_Name
       value: Brick
@@ -2584,6 +2768,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick
       objectReference: {fileID: 0}
+    - target: {fileID: 3539088464657478676, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2761,6 +2949,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: States.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: Sprites.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'States.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2064899443243692740, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'States.Array.data[1]'
+      value: 
+      objectReference: {fileID: 801125056326043857, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'Sprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2064899443243692740, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'Sprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: 801125056326043857, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
+    - target: {fileID: 3334328242216394464, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: 'Sprites.Array.data[2]'
+      value: 
+      objectReference: {fileID: 801125056326043857, guid: 83bf1370dcfcb3f4fa43f00328df473a, type: 3}
     - target: {fileID: 3539088464657478676, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
       propertyPath: m_Name
       value: Brick
@@ -2826,6 +3042,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick
       objectReference: {fileID: 0}
+    - target: {fileID: 3539088464657478676, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2846,7 +3066,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1619957904
 Transform:
   m_ObjectHideFlags: 0
@@ -2965,7 +3185,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1747728088
 Transform:
   m_ObjectHideFlags: 0
@@ -3400,6 +3620,10 @@ PrefabInstance:
     - target: {fileID: 3539088464657478676, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
       propertyPath: m_Name
       value: Brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539088464657478676, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
