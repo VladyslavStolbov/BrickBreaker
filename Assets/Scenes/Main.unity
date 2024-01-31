@@ -1361,7 +1361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08c9b98b4e70c1849a66fda5272eccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Score: 0
+  Lives: 8
   Text: {fileID: 636159597}
 --- !u!4 &508975919
 Transform:
