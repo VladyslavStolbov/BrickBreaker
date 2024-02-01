@@ -7,12 +7,12 @@ public class Brick : MonoBehaviour
 
     private GameManager _gameManager;
     private SpriteRenderer _spriteRenderer;
+    [SerializeField] private GameObject _bottomWall;
     private int _health;
 
     private void Awake()
     {
         _gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
-        _spriteRenderer = GetComponent<SpriteRenderer>();
         _health = States.Length;
     }
 
