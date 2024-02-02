@@ -4,15 +4,10 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     public int Score { get; private set; }
-    public int Lives { get; private set; }
+    public int Lives = 8;
     [SerializeField] private GameObject _gameOverScreen;
+    [SerializeField] private BallMovement _ball;
     public TMP_Text Text;
-    public Health Health;
-
-    private void Start()
-    {
-        Lives = 8;
-    }
 
     public void AddScore(int amount)
     {
@@ -30,8 +25,17 @@ public class GameManager : MonoBehaviour
 
     private void GameOver()
     {
-        Time.timeScale = 0;
+        Time.timeScale = 1;
         _gameOverScreen.SetActive(true);
+    }
+
+    public void RestartGame()
+    {
+        Time.timeScale = 1;
+        _gameOverScreen.SetActive(false);
+        _ball.ResetBall();
+        Lives = 8;
+        Score = 0;
     }
 
     private void Update()

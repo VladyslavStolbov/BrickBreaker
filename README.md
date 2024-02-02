@@ -41,7 +41,7 @@
         - [X] Track the number of lives.
         - [X] End the game when the player runs out of lives.
     - [ ] Create a game manager:
-        - [ ] Manage game state (start, playing, game over).
+        - [X] Manage game state (start, playing, game over).
         - [ ] Reset the game when needed.
 - [ ] UI
     - [ ] Design and implement the user interface:
