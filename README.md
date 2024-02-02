@@ -36,8 +36,8 @@
         - [X] Keep track of the player's score.
 - [ ] Game Logic
     - [ ] Implement game over conditions:
-        - [ ] Track the number of lives.
-        - [ ] End the game when the player runs out of lives.
+        - [X] Track the number of lives.
+        - [X] End the game when the player runs out of lives.
     - [ ] Create a game manager:
         - [ ] Manage game state (start, playing, game over).
         - [ ] Reset the game when needed.

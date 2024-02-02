@@ -5,6 +5,7 @@ public class GameManager : MonoBehaviour
 {
     public int Score { get; private set; }
     public int Lives { get; private set; }
+    [SerializeField] private GameObject _gameOverScreen;
     public TMP_Text Text;
     public Health Health;
 
@@ -29,7 +30,8 @@ public class GameManager : MonoBehaviour
 
     private void GameOver()
     {
-        Debug.Log("Game Over");
+        Time.timeScale = 0;
+        _gameOverScreen.SetActive(true);
     }
 
     private void Update()
