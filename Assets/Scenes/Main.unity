@@ -570,6 +570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dee7ef07dd11e2c4d8fb2fc23b3fa959, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameManager: {fileID: 508975918}
 --- !u!4 &159176018 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1063684384492678624, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
@@ -1361,8 +1362,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08c9b98b4e70c1849a66fda5272eccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Lives: 8
   Text: {fileID: 636159597}
+  Health: {fileID: 555052108}
 --- !u!4 &508975919
 Transform:
   m_ObjectHideFlags: 0
@@ -1571,7 +1572,7 @@ GameObject:
   - component: {fileID: 555052109}
   - component: {fileID: 555052108}
   m_Layer: 0
-  m_Name: Heart
+  m_Name: Health
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1589,7 +1590,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538a7e93a9683af49b58d4620bf89207, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _states: []
+  GameManager: {fileID: 508975918}
+  _states:
+  - {fileID: 4432793351920879750, guid: dd301dd77be648a41ad1979febb3d21e, type: 3}
+  - {fileID: 5642012044021194823, guid: dd301dd77be648a41ad1979febb3d21e, type: 3}
+  - {fileID: 8124259339964715380, guid: dd301dd77be648a41ad1979febb3d21e, type: 3}
+  - {fileID: 7685371531485235544, guid: dd301dd77be648a41ad1979febb3d21e, type: 3}
+  - {fileID: 4160753575623616581, guid: dd301dd77be648a41ad1979febb3d21e, type: 3}
+  - {fileID: 366615594880959974, guid: dd301dd77be648a41ad1979febb3d21e, type: 3}
+  - {fileID: -35186699611894704, guid: dd301dd77be648a41ad1979febb3d21e, type: 3}
+  - {fileID: 3631281003583422710, guid: dd301dd77be648a41ad1979febb3d21e, type: 3}
 --- !u!212 &555052109
 SpriteRenderer:
   m_ObjectHideFlags: 0

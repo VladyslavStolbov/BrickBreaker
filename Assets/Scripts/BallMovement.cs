@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class BallMovement : MonoBehaviour
 {
+    public GameManager GameManager;
+
     private Rigidbody2D _rigidbody;
     private float _speed = 10f;
     private bool _isButtonPressed = false;
@@ -12,6 +14,7 @@ public class BallMovement : MonoBehaviour
     {
         _rigidbody = GetComponent<Rigidbody2D>();
         _paddle = GameObject.FindGameObjectWithTag("Paddle").GetComponent<PaddleMovement>();
+        _initialPosition = transform.position;
     }
 
     private void Update()
@@ -40,9 +43,10 @@ public class BallMovement : MonoBehaviour
     public void ResetBall()
     {
         _rigidbody.velocity = Vector2.zero;
-        _initialPosition = _paddle.transform.position;
+        _initialPosition.x = _paddle.transform.position.x;
         transform.SetParent(_paddle.transform);
         transform.position = _initialPosition;
+        GameManager.LoseLife();
         _isButtonPressed = false;
     }
 }
