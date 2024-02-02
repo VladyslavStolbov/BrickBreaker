@@ -1,9 +1,9 @@
 # BrickBreaker
 
 ## Minimum Viable Product (MVP) for a game:
-- [ ] Functional Paddle: The player can control the paddle's horizontal movement.
-- [ ] Functional Ball: The ball moves and bounces off walls and the paddle.
-- [ ] Brick Destruction: The ball destroys bricks upon collision.
+- [X] Functional Paddle: The player can control the paddle's horizontal movement.
+- [X] Functional Ball: The ball moves and bounces off walls and the paddle.
+- [X] Brick Destruction: The ball destroys bricks upon collision.
 - [ ] Scoring System: Keep track of the player's score.
 - [ ] Lives System: Implement a basic lives system.
 
