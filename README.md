@@ -1,5 +1,7 @@
 # BrickBreaker
 
+![](https://geps.dev/progress/60)
+
 ## Minimum Viable Product (MVP) for a game:
 - [ ] Functional Paddle: The player can control the paddle's horizontal movement.
 - [ ] Functional Ball: The ball moves and bounces off walls and the paddle.
