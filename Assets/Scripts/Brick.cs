@@ -39,7 +39,7 @@ public class Brick : MonoBehaviour
         if (other.gameObject.name == "Ball")
         {
             Hit();
-            _gameManager.AddScore(10);
+
         }
     }
 }

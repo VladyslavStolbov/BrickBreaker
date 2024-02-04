@@ -30,17 +30,21 @@ public class GameManager : MonoBehaviour
     }
 
     public void RestartGame()
-    {
-        Time.timeScale = 1;
-        _gameOverScreen.SetActive(false);
+    { 
         _ball.ResetBall();
         Lives = 8;
         Score = 0;
+        _gameOverScreen.SetActive(false);
+        Time.timeScale = 1;
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 
     private void Update()
     {
         Text.text = Score.ToString();
     }
-    
 }

@@ -7,8 +7,15 @@
 - [X] Functional Paddle: The player can control the paddle's horizontal movement.
 - [X] Functional Ball: The ball moves and bounces off walls and the paddle.
 - [X] Brick Destruction: The ball destroys bricks upon collision.
-- [ ] Scoring System: Keep track of the player's score.
-- [ ] Lives System: Implement a basic lives system.
+- [X] Scoring System: Keep track of the player's score.
+- [X] Lives System: Implement a basic lives system.
+
+## Additional features
+
+- [ ] Sound Effects
+- [ ] 3 different levels
+- [ ] Different score amount from each brick
+
 
 ## ToDo
 
@@ -38,22 +45,22 @@
     - [X] Write a script to handle collisions between the ball and bricks.
     - [X] Remove destroyed bricks from the scene.
     - [X] Keep track of the player's score.
-- [ ] Game Logic
-  - [ ] Implement game over conditions:
+- [X] Game Logic
+  - [X] Implement game over conditions:
     - [X] Track the number of lives.
     - [X] End the game when the player runs out of lives.
-  - [ ] Create a game manager:
+  - [X] Create a game manager:
     - [X] Manage game state (start, playing, game over).
-    - [ ] Reset the game when needed.
-- [ ] UI
-  - [ ] Design and implement the user interface:
-    - [ ] Add a score display.
-    - [ ] Show the number of lives remaining.
-    - [ ] Include a game over screen.
-- [ ] Testing and Debugging
-  - [ ] Test the game thoroughly:
-    - [ ] Ensure all mechanics work as intended.
-    - [ ] Debug any issues that arise during testing.
+    - [X] Reset the game when needed.
+- [X] UI
+  - [X] Design and implement the user interface:
+    - [X] Add a score display.
+    - [X] Show the number of lives remaining.
+    - [X] Include a game over screen.
+- [X] Testing and Debugging
+  - [X] Test the game thoroughly:
+    - [X] Ensure all mechanics work as intended.
+    - [X] Debug any issues that arise during testing.
 - [ ] Polish and Optimization
   - [ ] Refine game elements:
     - [ ] Fine-tune paddle and ball movement.
