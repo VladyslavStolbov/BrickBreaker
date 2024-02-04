@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
 
     private void GameOver()
     {
-        Time.timeScale = 1;
+        Time.timeScale = 0;
         _gameOverScreen.SetActive(true);
     }
 
@@ -42,4 +42,5 @@ public class GameManager : MonoBehaviour
     {
         Text.text = Score.ToString();
     }
+    
 }
