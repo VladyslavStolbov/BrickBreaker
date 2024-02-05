@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 public class Brick : MonoBehaviour
@@ -13,20 +12,18 @@ public class Brick : MonoBehaviour
     private void Awake()
     {
         _gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
-        _health = States.Length;
+        _health = States.Length - 1;
     }
 
     private void Hit()
     {
         _health--;
-        if (_health >= 0)
+        if (_health < 0)
         {
-            UpdateSprite();
+            gameObject.SetActive(false);
+            return;
         }
-        else
-        {
-            Destroy(gameObject);
-        }
+        UpdateSprite();
     }
 
     private void UpdateSprite()
@@ -36,10 +33,8 @@ public class Brick : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.name == "Ball")
-        {
-            Hit();
-
-        }
+        if (other.gameObject.name != "Ball") return;
+        Hit();
+        _gameManager.AddScore(5);
     }
 }
