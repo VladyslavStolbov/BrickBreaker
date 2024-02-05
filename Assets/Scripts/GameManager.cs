@@ -62,12 +62,26 @@ public class GameManager : MonoBehaviour
         Lives = 8;
         Score = 0;
         _endGameScreen.SetActive(false);
+        ResetBricks();
         Time.timeScale = 1;
     }
 
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    private void ResetBricks()
+    {
+        foreach (var row in _bricks)
+        {
+            for (int i = 0; i < row.transform.childCount; i++)
+            {
+                var brick = row.transform.GetChild(i).gameObject;
+                brick.SetActive(true);
+            }
+        
+        }
     }
 
     private bool IsCleared()
