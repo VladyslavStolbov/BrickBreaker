@@ -1,18 +1,25 @@
-using UnityEngine;
+using System.Collections.Generic;
 using TMPro;
+using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     public int Score { get; private set; }
     public int Lives = 8;
 
-    private GameObject[] _initialBricks;
+    private Brick[] _bricks;
 
     [SerializeField] private GameObject _endGameScreen;
     [SerializeField] private TextMeshProUGUI _endGameText;
     [SerializeField] private BallMovement _ball;
+    [SerializeField] private PaddleMovement _paddle;
     [SerializeField] private TMP_Text ScoreText;
-    [SerializeField] private GameObject[] _bricks;
+    [SerializeField] private GameObject[] _rows;
+
+    private void Start()
+    {
+        AssignBricks();
+    }
     private void Update()
     {
         ScoreText.text = Score.ToString();
@@ -51,17 +58,18 @@ public class GameManager : MonoBehaviour
     private void Win()
     {
         Time.timeScale = 0;
-        _endGameScreen.SetActive(false);
+        _endGameScreen.SetActive(true);
         _endGameText.text = "You Win";
         _endGameText.color = Color.green;
     }
 
     public void RestartGame()
-    { 
+    {
         _ball.ResetBall();
         Lives = 8;
         Score = 0;
         _endGameScreen.SetActive(false);
+        _paddle.ToInitialPosition();
         ResetBricks();
         Time.timeScale = 1;
     }
@@ -73,25 +81,34 @@ public class GameManager : MonoBehaviour
 
     private void ResetBricks()
     {
-        foreach (var row in _bricks)
+        foreach (var brick in _bricks)
         {
-            for (int i = 0; i < row.transform.childCount; i++)
-            {
-                var brick = row.transform.GetChild(i).gameObject;
-                brick.SetActive(true);
-            }
-        
+            brick.gameObject.SetActive(true);
         }
     }
 
     private bool IsCleared()
     {
-        if (_bricks.Length == 0)
+        foreach (var brick in _bricks)
         {
-            return true;
+            if (brick.gameObject.activeSelf)
+            {
+                return false;
+            }
         }
-
-        return false;
+        return true;
+    }
+    private void AssignBricks()
+    {
+        List<Brick> bricksList = new List<Brick>();
+        foreach (var row in _rows)
+        {
+            foreach (Transform brick in row.transform)
+            {
+                bricksList.Add(brick.GetComponent<Brick>());
+            }
+        }
+        _bricks = bricksList.ToArray();
     }
 
 }
