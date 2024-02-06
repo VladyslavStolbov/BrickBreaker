@@ -61,11 +61,7 @@
   - [X] Test the game thoroughly:
     - [X] Ensure all mechanics work as intended.
     - [X] Debug any issues that arise during testing.
-- [ ] Polish and Optimization
-  - [ ] Refine game elements:
-    - [ ] Fine-tune paddle and ball movement.
-    - [ ] Adjust difficulty by changing brick layouts or ball speed
-    - [ ] Add a different amount of score for different type of bricks.
-    - [ ] Add sound effects and background music.
-  - [ ] Optimize performance:
-    - [ ] Profile and optimize code for better performance.
+- [X] Polish and Optimization
+  - [X] Refine game elements:
+    - [X] Fine-tune paddle and ball movement.
+- [ ] Refactor Code 

@@ -11,8 +11,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private GameObject _endGameScreen;
     [SerializeField] private TextMeshProUGUI _endGameText;
-    [SerializeField] private BallMovement _ball;
-    [SerializeField] private PaddleMovement _paddle;
+    [SerializeField] private Ball _ball;
+    [SerializeField] private Paddle _paddle;
     [SerializeField] private TMP_Text ScoreText;
     [SerializeField] private GameObject[] _rows;
 

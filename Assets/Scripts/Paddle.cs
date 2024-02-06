@@ -1,17 +1,20 @@
 using UnityEngine;
 
-public class PaddleMovement : MonoBehaviour
+public class Paddle : MonoBehaviour
 {
     [SerializeField] private GameObject Ball;
+    [SerializeField] private float _speed = 10f;
+    [SerializeField] private float _maxBounceAngle = 75;
 
+    private Rigidbody2D _ballRigidbody;
     private Vector3 _initialPosition;
-    private float _speed = 10f;
     private float _minX;
     private float _maxX;
-    private float _maxBounceAngle = 75;
 
     private void Start()
     {
+        _ballRigidbody = Ball.GetComponent<Rigidbody2D>();
+
         _initialPosition = transform.position;
 
         float cameraWidth = Camera.main.orthographicSize * 2 * Camera.main.aspect;
@@ -22,12 +25,13 @@ public class PaddleMovement : MonoBehaviour
         _maxX = cameraWidth / 2f - halfPaddleWidth;
     }
 
-    public void ToInitialPosition()
-    {
-        transform.position = _initialPosition;
-    }
 
     private void Update()
+    {
+        Move();
+    }
+
+    private void Move()
     {
         float horizontalInput = Input.GetAxis("Horizontal");
 
@@ -40,18 +44,37 @@ public class PaddleMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+        float width = other.otherCollider.bounds.size.x / 2;
+        var offset = CalculateOffset(other);
+        var newAngle = CalculateNewAngle(offset, width);
+        ApplyBallVelocity(newAngle);
+    }
+
+    private void ApplyBallVelocity(float newAngle)
+    {
+        Quaternion rotation = Quaternion.AngleAxis(newAngle, Vector3.forward);
+        _ballRigidbody.velocity =
+            rotation * Vector2.up * _ballRigidbody.velocity.magnitude;
+    }
+
+    private float CalculateOffset(Collision2D other)
+    {
         Vector3 paddlePosition = transform.position;
         Vector2 contactPoint = other.GetContact(0).point;
 
         float offset = paddlePosition.x - contactPoint.x;
-        float width = other.otherCollider.bounds.size.x / 2;
+        return offset;
+    }
 
-        float currentAngle = Vector2.SignedAngle(Vector2.up, Ball.GetComponent<Rigidbody2D>().velocity);
+    private float CalculateNewAngle(float offset, float width)
+    {
+        float currentAngle = Vector2.SignedAngle(Vector2.up, _ballRigidbody.velocity);
         float bounceAngle = (offset / width) * _maxBounceAngle;
         float newAngle = Mathf.Clamp(currentAngle + bounceAngle, -_maxBounceAngle, _maxBounceAngle);
-
-        Quaternion rotation = Quaternion.AngleAxis(newAngle, Vector3.forward);
-        Ball.GetComponent<Rigidbody2D>().velocity =
-            rotation * Vector2.up * Ball.GetComponent<Rigidbody2D>().velocity.magnitude;
+        return newAngle;
+    }
+    public void ToInitialPosition()
+    {
+        transform.position = _initialPosition;
     }
 }

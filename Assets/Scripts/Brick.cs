@@ -35,6 +35,6 @@ public class Brick : MonoBehaviour
     {
         if (other.gameObject.name != "Ball") return;
         Hit();
-        _gameManager.AddScore(5);
+        _gameManager.AddScore(10);
     }
 }

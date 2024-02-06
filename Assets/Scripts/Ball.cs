@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class BallMovement : MonoBehaviour
+public class Ball : MonoBehaviour
 {
     public GameManager GameManager;
 
@@ -8,12 +8,12 @@ public class BallMovement : MonoBehaviour
     private float _speed = 10f;
     private bool _isButtonPressed = false;
     private Vector3 _initialPosition;
-    private PaddleMovement _paddle;
+    private Paddle _paddle;
 
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
-        _paddle = GameObject.FindGameObjectWithTag("Paddle").GetComponent<PaddleMovement>();
+        _paddle = GameObject.FindGameObjectWithTag("Paddle").GetComponent<Paddle>();
         _initialPosition = transform.position;
     }
 
