@@ -1594,7 +1594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08c9b98b4e70c1849a66fda5272eccd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Lives: 1
+  Lives: 8
   _endGameScreen: {fileID: 285417636}
   _endGameText: {fileID: 108958501}
   _ball: {fileID: 156445125}
@@ -2476,6 +2476,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ball: {fileID: 156445120}
+  _speed: 10
+  _maxBounceAngle: 75
 --- !u!61 &661710100
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2546,7 +2548,7 @@ Rigidbody2D:
     serializedVersion: 2
     m_Bits: 0
   m_Interpolate: 1
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 1
   m_Constraints: 6
 --- !u!4 &684099108 stripped

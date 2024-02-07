@@ -4,12 +4,12 @@ public class Paddle : MonoBehaviour
 {
     [SerializeField] private GameObject Ball;
     [SerializeField] private float _speed = 10f;
-    [SerializeField] private float _maxBounceAngle = 75;
 
     private Rigidbody2D _ballRigidbody;
     private Vector3 _initialPosition;
     private float _minX;
     private float _maxX;
+    private float _maxBounceAngle = 75;
 
     private void Start()
     {
@@ -17,23 +17,30 @@ public class Paddle : MonoBehaviour
 
         _initialPosition = transform.position;
 
-        float cameraWidth = Camera.main.orthographicSize * 2 * Camera.main.aspect;
-
-        float halfPaddleWidth = GetComponent<SpriteRenderer>().bounds.size.x / 2f;
-
-        _minX = -cameraWidth / 2f + halfPaddleWidth;
-        _maxX = cameraWidth / 2f - halfPaddleWidth;
+        CalculateMovementBoundaries();
     }
-
+    public void ToInitialPosition()
+    {
+        transform.position = _initialPosition;
+    }
 
     private void Update()
     {
         Move();
     }
 
+    private void CalculateMovementBoundaries()
+    {
+        float cameraWidth = Camera.main.orthographicSize * 2 * Camera.main.aspect;
+        float halfPaddleWidth = GetComponent<SpriteRenderer>().bounds.size.x / 2f;
+
+        _minX = -cameraWidth / 2f + halfPaddleWidth;
+        _maxX = cameraWidth / 2f - halfPaddleWidth;
+    }
+
     private void Move()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
+        float horizontalInput = Input.GetAxisRaw("Horizontal");
 
         float newPosition = transform.position.x + horizontalInput * _speed * Time.deltaTime;
 
@@ -72,9 +79,5 @@ public class Paddle : MonoBehaviour
         float bounceAngle = (offset / width) * _maxBounceAngle;
         float newAngle = Mathf.Clamp(currentAngle + bounceAngle, -_maxBounceAngle, _maxBounceAngle);
         return newAngle;
-    }
-    public void ToInitialPosition()
-    {
-        transform.position = _initialPosition;
     }
 }

@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Ball _ball;
     [SerializeField] private Paddle _paddle;
     [SerializeField] private TMP_Text ScoreText;
-    [SerializeField] private GameObject[] _rows;
+    [SerializeField] private GameObject[] _brickRows;
 
     private void Start()
     {
@@ -22,12 +22,12 @@ public class GameManager : MonoBehaviour
     }
     private void Update()
     {
-        ScoreText.text = Score.ToString();
         CheckGameState();
     }
     public void AddScore(int amount)
     {
         Score += amount;
+        ScoreText.text = Score.ToString(); ;
     }
 
     public void LoseLife()
@@ -101,7 +101,7 @@ public class GameManager : MonoBehaviour
     private void AssignBricks()
     {
         List<Brick> bricksList = new List<Brick>();
-        foreach (var row in _rows)
+        foreach (var row in _brickRows)
         {
             foreach (Transform brick in row.transform)
             {
