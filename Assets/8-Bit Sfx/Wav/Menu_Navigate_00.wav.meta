@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 66f243de47e7c3d4885d14edd39a4b9a
+guid: 2d8ec81bd03c74801b1505e1eb7215ee
 AudioImporter:
   externalObjects: {}
   serializedVersion: 7
@@ -21,3 +21,10 @@ AudioImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32831
+  packageName: 8-Bit Sfx
+  packageVersion: 1.0
+  assetPath: Assets/8-Bit Sfx/Wav/Menu_Navigate_00.wav
+  uploadId: 55586

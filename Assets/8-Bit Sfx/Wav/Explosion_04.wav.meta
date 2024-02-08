@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 66f243de47e7c3d4885d14edd39a4b9a
+guid: 190249e9daca446149224d9c98c221db
 AudioImporter:
   externalObjects: {}
   serializedVersion: 7
@@ -21,3 +21,10 @@ AudioImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32831
+  packageName: 8-Bit Sfx
+  packageVersion: 1.0
+  assetPath: Assets/8-Bit Sfx/Wav/Explosion_04.wav
+  uploadId: 55586

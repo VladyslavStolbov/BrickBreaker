@@ -4,6 +4,7 @@ public class Brick : MonoBehaviour
 {
     public Sprite[] States;
 
+    private SoundManager _soundManager;
     private GameManager _gameManager;
     private SpriteRenderer _spriteRenderer;
     [SerializeField] private GameObject _bottomWall;
@@ -11,12 +12,14 @@ public class Brick : MonoBehaviour
 
     private void Awake()
     {
+        _soundManager = SoundManager.Instance;
         _gameManager = GameManager.Instance;
         _health = States.Length - 1;
     }
 
     private void Hit()
     {
+        _soundManager.PlaySound(_soundManager.HitSound);
         _health--;
         if (_health < 0)
         {
