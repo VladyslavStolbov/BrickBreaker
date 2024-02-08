@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Instance { get; private set; }
     public int Score { get; private set; }
     public int Lives = 8;
 
@@ -16,14 +17,29 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TMP_Text ScoreText;
     [SerializeField] private GameObject[] _brickRows;
 
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
+    }
+
     private void Start()
     {
         AssignBricks();
     }
+
     private void Update()
     {
         CheckGameState();
     }
+
     public void AddScore(int amount)
     {
         Score += amount;

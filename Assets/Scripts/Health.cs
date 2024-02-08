@@ -2,20 +2,21 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    public GameManager GameManager;
+    private GameManager _gameManager;
     [SerializeField] private Sprite[] _states;
     private SpriteRenderer _spriteRenderer;
 
     private void Awake()
     {
+        _gameManager = GameManager.Instance;
         _spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
     }
 
     private void Update()
     {
-        if (GameManager.Lives > 0)
+        if (_gameManager.Lives > 0)
         {
-            _spriteRenderer.sprite = _states[GameManager.Lives - 1];
+            _spriteRenderer.sprite = _states[_gameManager.Lives - 1];
         }
     }
 }

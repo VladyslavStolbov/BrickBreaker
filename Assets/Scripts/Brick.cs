@@ -11,7 +11,7 @@ public class Brick : MonoBehaviour
 
     private void Awake()
     {
-        _gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+        _gameManager = GameManager.Instance;
         _health = States.Length - 1;
     }
 

@@ -722,7 +722,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dee7ef07dd11e2c4d8fb2fc23b3fa959, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameManager: {fileID: 508975918}
 --- !u!4 &159176018 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1063684384492678624, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
@@ -1577,7 +1576,7 @@ GameObject:
   - component: {fileID: 508975918}
   m_Layer: 0
   m_Name: GameManager
-  m_TagString: GameManager
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1600,12 +1599,13 @@ MonoBehaviour:
   _ball: {fileID: 156445125}
   _paddle: {fileID: 661710099}
   ScoreText: {fileID: 636159597}
-  _rows:
+  _brickRows:
   - {fileID: 1747728087}
-  - {fileID: 1619957903}
-  - {fileID: 135727920}
   - {fileID: 407171638}
-  - {fileID: 1389628468}
+  - {fileID: 135727920}
+  - {fileID: 135727920}
+  - {fileID: 1619957903}
+  - {fileID: 1747728087}
 --- !u!4 &508975919
 Transform:
   m_ObjectHideFlags: 0
@@ -1840,7 +1840,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538a7e93a9683af49b58d4620bf89207, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameManager: {fileID: 508975918}
   _states:
   - {fileID: 4432793351920879750, guid: dd301dd77be648a41ad1979febb3d21e, type: 3}
   - {fileID: 5642012044021194823, guid: dd301dd77be648a41ad1979febb3d21e, type: 3}
@@ -2477,7 +2476,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Ball: {fileID: 156445120}
   _speed: 10
-  _maxBounceAngle: 75
 --- !u!61 &661710100
 BoxCollider2D:
   m_ObjectHideFlags: 0

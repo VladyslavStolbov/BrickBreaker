@@ -2,8 +2,7 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
-    public GameManager GameManager;
-
+    private GameManager _gameManager;
     private Rigidbody2D _rigidbody;
     private float _speed = 10f;
     private bool _isButtonPressed = false;
@@ -12,6 +11,7 @@ public class Ball : MonoBehaviour
 
     private void Awake()
     {
+        _gameManager = GameManager.Instance;
         _rigidbody = GetComponent<Rigidbody2D>();
         _paddle = GameObject.FindGameObjectWithTag("Paddle").GetComponent<Paddle>();
         _initialPosition = transform.position;
@@ -46,7 +46,7 @@ public class Ball : MonoBehaviour
         _initialPosition.x = _paddle.transform.position.x;
         transform.SetParent(_paddle.transform);
         transform.position = _initialPosition;
-        GameManager.LoseLife();
+        _gameManager.LoseLife();
         _isButtonPressed = false;
     }
 }
