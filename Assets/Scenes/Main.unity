@@ -1598,14 +1598,6 @@ MonoBehaviour:
   _endGameText: {fileID: 108958501}
   _ball: {fileID: 156445125}
   _paddle: {fileID: 661710099}
-  ScoreText: {fileID: 636159597}
-  _brickRows:
-  - {fileID: 1747728087}
-  - {fileID: 407171638}
-  - {fileID: 135727920}
-  - {fileID: 135727920}
-  - {fileID: 1619957903}
-  - {fileID: 1747728087}
 --- !u!4 &508975919
 Transform:
   m_ObjectHideFlags: 0
@@ -2101,6 +2093,7 @@ GameObject:
   - component: {fileID: 636159596}
   - component: {fileID: 636159598}
   - component: {fileID: 636159597}
+  - component: {fileID: 636159599}
   m_Layer: 5
   m_Name: Score
   m_TagString: Untagged
@@ -2226,6 +2219,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 636159595}
   m_CullTransparentMesh: 1
+--- !u!114 &636159599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636159595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f466dd5dc6550704bae7ad911b3af0de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScoreText: {fileID: 636159597}
 --- !u!4 &638861026 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1063684384492678624, guid: 9fd3c8b7e12d3b54595b7c07bf556899, type: 3}
@@ -3720,7 +3726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b00594c795f365e419b50aae6ef62355, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HitSound: {fileID: 8300000, guid: 7d3188bd93a957c4b8094ed18fac8a95, type: 3}
+  HitSound: {fileID: 8300000, guid: 66f243de47e7c3d4885d14edd39a4b9a, type: 3}
   WinSound: {fileID: 8300000, guid: 650987fab4567a648b0e6b0673245967, type: 3}
   LoseSound: {fileID: 8300000, guid: 099bac8594feebe4c9c3be6914143f41, type: 3}
 --- !u!1 &1146447654
@@ -4677,6 +4683,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1800931120}
+  - component: {fileID: 1800931121}
   m_Layer: 0
   m_Name: Bricks
   m_TagString: Untagged
@@ -4704,6 +4711,24 @@ Transform:
   - {fileID: 1389628469}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1800931121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800931119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 741b1af7cf4f4bc41970779d8da06867, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _brickRows:
+  - {fileID: 1747728087}
+  - {fileID: 1619957903}
+  - {fileID: 135727920}
+  - {fileID: 407171638}
+  - {fileID: 1389628468}
 --- !u!1001 &1814491393
 PrefabInstance:
   m_ObjectHideFlags: 0

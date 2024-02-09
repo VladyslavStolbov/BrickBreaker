@@ -37,6 +37,7 @@ public class Ball : MonoBehaviour
         if (other.gameObject.CompareTag("BottomWall"))
         {
             ResetBall();
+            _gameManager.CheckGameState();
         }
     }
 
@@ -46,7 +47,7 @@ public class Ball : MonoBehaviour
         _initialPosition.x = _paddle.transform.position.x;
         transform.SetParent(_paddle.transform);
         transform.position = _initialPosition;
-        _gameManager.LoseLife();
+        _gameManager.Lives--;
         _isButtonPressed = false;
     }
 }

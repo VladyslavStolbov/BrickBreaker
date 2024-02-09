@@ -21,15 +21,15 @@ public class SoundManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(this.gameObject);
         }
+    }
 
-        _audioSource = this.gameObject.AddComponent<AudioSource>(); 
+    private void Start()
+    {
+        _audioSource = this.gameObject.AddComponent<AudioSource>();
     }
 
     public void PlaySound(AudioClip sound)
     {
-        if (sound != null)
-        {
-            _audioSource.PlayOneShot(sound);
-        }
+        _audioSource.PlayOneShot(sound);
     }
 }

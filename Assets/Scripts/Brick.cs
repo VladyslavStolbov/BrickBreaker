@@ -6,6 +6,7 @@ public class Brick : MonoBehaviour
 
     private SoundManager _soundManager;
     private GameManager _gameManager;
+    private ScoreManager _scoreManager;
     private SpriteRenderer _spriteRenderer;
     [SerializeField] private GameObject _bottomWall;
     private int _health;
@@ -14,6 +15,7 @@ public class Brick : MonoBehaviour
     {
         _soundManager = SoundManager.Instance;
         _gameManager = GameManager.Instance;
+        _scoreManager = ScoreManager.Instance;
         _health = States.Length - 1;
     }
 
@@ -24,6 +26,7 @@ public class Brick : MonoBehaviour
         if (_health < 0)
         {
             gameObject.SetActive(false);
+            _gameManager.CheckGameState();
             return;
         }
         UpdateSprite();
@@ -38,6 +41,6 @@ public class Brick : MonoBehaviour
     {
         if (other.gameObject.name != "Ball") return;
         Hit();
-        _gameManager.AddScore(10);
+        _scoreManager.AddScore(10);
     }
 }
