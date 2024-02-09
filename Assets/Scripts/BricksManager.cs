@@ -44,10 +44,7 @@ public class BricksManager : MonoBehaviour
         var bricksList = new List<Brick>();
         foreach (var row in _brickRows)
         {
-            foreach (Transform brick in row.transform)
-            {
-                bricksList.Add(brick.GetComponent<Brick>());
-            }
+            bricksList.AddRange(from Transform brick in row.transform select brick.GetComponent<Brick>());
         }
         _bricks = bricksList.ToArray();
     }

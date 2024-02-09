@@ -11,6 +11,10 @@ public class Paddle : MonoBehaviour
     private float _maxX;
     private float _maxBounceAngle = 75;
 
+    public void ToInitialPosition()
+    {
+        transform.position = _initialPosition;
+    }
     private void Start()
     {
         _ballRigidbody = Ball.GetComponent<Rigidbody2D>();
@@ -18,10 +22,6 @@ public class Paddle : MonoBehaviour
         _initialPosition = transform.position;
 
         CalculateMovementBoundaries();
-    }
-    public void ToInitialPosition()
-    {
-        transform.position = _initialPosition;
     }
 
     private void Update()
@@ -52,8 +52,8 @@ public class Paddle : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other)
     {
         float width = other.otherCollider.bounds.size.x / 2;
-        var offset = CalculateOffset(other);
-        var newAngle = CalculateNewAngle(offset, width);
+        float offset = CalculateOffset(other);
+        float newAngle = CalculateNewAngle(offset, width);
         ApplyBallVelocity(newAngle);
     }
 

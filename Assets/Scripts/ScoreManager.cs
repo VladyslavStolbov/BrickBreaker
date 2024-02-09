@@ -7,6 +7,7 @@ public class ScoreManager : MonoBehaviour
     public int Score { get; private set; }
 
     private GameManager _gameManager;
+    private const int ScoreIncrement = 10;
     [SerializeField] private TMP_Text ScoreText;
 
     private void Awake()

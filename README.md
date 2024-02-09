@@ -1,7 +1,5 @@
 # BrickBreaker
 
-![](https://geps.dev/progress/60)
-
 ## Minimum Viable Product (MVP) for a game
 
 - [X] Functional Paddle: The player can control the paddle's horizontal movement.
@@ -12,10 +10,7 @@
 
 ## Additional features
 
-- [ ] Sound Effects
-- [ ] 3 different levels
-- [ ] Different score amount from each brick
-
+- [X] Minimal Sound Effects
 
 ## ToDo
 

@@ -3,15 +3,17 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
     private GameManager _gameManager;
+    private SoundManager _soundManager;
     private Rigidbody2D _rigidbody;
     private float _speed = 10f;
     private bool _isButtonPressed = false;
     private Vector3 _initialPosition;
     private Paddle _paddle;
 
-    private void Awake()
+    private void Start()
     {
         _gameManager = GameManager.Instance;
+        _soundManager = SoundManager.Instance;
         _rigidbody = GetComponent<Rigidbody2D>();
         _paddle = GameObject.FindGameObjectWithTag("Paddle").GetComponent<Paddle>();
         _initialPosition = transform.position;
@@ -19,12 +21,10 @@ public class Ball : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0) && !_isButtonPressed)
-        {
-            transform.SetParent(null);
-            StartBall();
-            _isButtonPressed = true;
-        }
+        if (!Input.GetKeyDown(KeyCode.Mouse0) || _isButtonPressed) return;
+        transform.SetParent(null);
+        StartBall();
+        _isButtonPressed = true;
     }
 
     private void StartBall()
@@ -34,10 +34,15 @@ public class Ball : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("BottomWall"))
+        if (!other.gameObject.CompareTag("BottomWall"))
+        {
+            _soundManager.PlaySound(_soundManager.HitSound);
+        }
+        else
         {
             ResetBall();
             _gameManager.CheckGameState();
+            
         }
     }
 
