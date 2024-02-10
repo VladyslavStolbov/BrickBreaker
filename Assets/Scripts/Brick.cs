@@ -2,20 +2,22 @@ using UnityEngine;
 
 public class Brick : MonoBehaviour
 {
-    public Sprite[] States;
 
+    [SerializeField] private Sprite[] _states;
+    [SerializeField] private SpriteRenderer _spriteRenderer;
+    private Sprite _initialSprite;
     private SoundManager _soundManager;
     private GameManager _gameManager;
     private ScoreManager _scoreManager;
-    private SpriteRenderer _spriteRenderer;
     private int _health;
 
-    private void Awake()
+    private void Start()
     {
         _soundManager = SoundManager.Instance;
         _gameManager = GameManager.Instance;
         _scoreManager = ScoreManager.Instance;
-        _health = States.Length - 1;
+        _health = _states.Length;
+        _initialSprite = _spriteRenderer.sprite;
     }
 
     private void Hit()
@@ -31,9 +33,14 @@ public class Brick : MonoBehaviour
         UpdateSprite();
     }
 
+    public void ResetSprite()
+    {
+        _spriteRenderer.sprite = _initialSprite;
+    }
+
     private void UpdateSprite()
     {
-        _spriteRenderer.sprite = States[_health];
+        _spriteRenderer.sprite = _states[_health];
     }
 
     private void OnCollisionEnter2D(Collision2D other)

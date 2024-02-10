@@ -31,6 +31,7 @@ public class BricksManager : MonoBehaviour
         foreach (var brick in _bricks)
         {
             brick.gameObject.SetActive(true);
+            brick.ResetSprite();
         }
     }
 
