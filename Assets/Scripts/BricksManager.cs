@@ -1,7 +1,5 @@
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class BricksManager : MonoBehaviour
@@ -27,6 +25,7 @@ public class BricksManager : MonoBehaviour
     {
         AssignBricks();
     }
+
     public void ResetBricks()
     {
         foreach (var brick in _bricks)
@@ -34,6 +33,7 @@ public class BricksManager : MonoBehaviour
             brick.gameObject.SetActive(true);
         }
     }
+
     public bool IsCleared()
     {
         return _bricks.All(brick => !brick.gameObject.activeSelf);
@@ -41,12 +41,17 @@ public class BricksManager : MonoBehaviour
 
     private void AssignBricks()
     {
-        var bricksList = new List<Brick>();
-        foreach (var row in _brickRows)
-        {
-            bricksList.AddRange(from Transform brick in row.transform select brick.GetComponent<Brick>());
-        }
-        _bricks = bricksList.ToArray();
-    }
+        List<Brick> allBricks = new List<Brick>();
 
+        foreach (GameObject brickRow in _brickRows)
+        {
+            IEnumerable<Brick> bricksInRow = brickRow.transform
+                .Cast<Transform>()
+                .Select(brickTransform => brickTransform.GetComponent<Brick>());
+
+            allBricks.AddRange(bricksInRow);
+        }
+
+        _bricks = allBricks.ToArray();
+    }
 }

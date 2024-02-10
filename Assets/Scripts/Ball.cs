@@ -34,16 +34,9 @@ public class Ball : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (!other.gameObject.CompareTag("BottomWall"))
-        {
-            _soundManager.PlaySound(_soundManager.HitSound);
-        }
-        else
-        {
-            ResetBall();
-            _gameManager.CheckGameState();
-            
-        }
+        if (!other.gameObject.CompareTag("BottomWall")) return;
+        ResetBall();
+        _gameManager.CheckGameState();
     }
 
     public void ResetBall()

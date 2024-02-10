@@ -6,8 +6,6 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager Instance;
     public int Score { get; private set; }
 
-    private GameManager _gameManager;
-    private const int ScoreIncrement = 10;
     [SerializeField] private TMP_Text ScoreText;
 
     private void Awake()
@@ -20,11 +18,6 @@ public class ScoreManager : MonoBehaviour
         {
             Instance = this;
         }
-    }
-
-    private void Start()
-    {
-        _gameManager = GameManager.Instance;
     }
 
     public void AddScore(int amount)

@@ -3,8 +3,8 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     private GameManager _gameManager;
-    [SerializeField] private Sprite[] _states;
     private SpriteRenderer _spriteRenderer;
+    [SerializeField] private Sprite[] _states;
 
     private void Awake()
     {

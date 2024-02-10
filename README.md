@@ -59,4 +59,4 @@
 - [X] Polish and Optimization
   - [X] Refine game elements:
     - [X] Fine-tune paddle and ball movement.
-- [ ] Refactor Code 
+- [X] Refactor Code 

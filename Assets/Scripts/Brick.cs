@@ -8,7 +8,6 @@ public class Brick : MonoBehaviour
     private GameManager _gameManager;
     private ScoreManager _scoreManager;
     private SpriteRenderer _spriteRenderer;
-    [SerializeField] private GameObject _bottomWall;
     private int _health;
 
     private void Awake()
