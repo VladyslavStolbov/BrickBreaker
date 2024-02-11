@@ -1,6 +1,7 @@
 # BrickBreaker
 
-BrickBreaker is a classic arcade game built with Unity. The player controls a paddle to bounce a ball and break bricks. The game includes a scoring system and a lives system.
+![Unity_GvWFTEIOlC](https://github.com/VladyslavStolbov/BrickBreaker/assets/124466211/83dc4642-f8ed-40fe-86b7-57bd2da72a07)
+
 
 ## Project Intensions
 
