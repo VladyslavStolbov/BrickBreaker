@@ -3,6 +3,8 @@ using UnityEngine;
 public class Brick : MonoBehaviour
 {
 
+
+    [SerializeField] private int _scoreForBrick;
     [SerializeField] private Sprite[] _states;
     [SerializeField] private SpriteRenderer _spriteRenderer;
     private Sprite _initialSprite;
@@ -27,6 +29,7 @@ public class Brick : MonoBehaviour
         if (_health < 0)
         {
             gameObject.SetActive(false);
+            _scoreManager.AddScore(_scoreForBrick);
             _gameManager.CheckGameState();
             return;
         }
@@ -47,6 +50,5 @@ public class Brick : MonoBehaviour
     {
         if (other.gameObject.name != "Ball") return;
         Hit();
-        _scoreManager.AddScore(10);
     }
 }
