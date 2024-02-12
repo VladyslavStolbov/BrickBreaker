@@ -1,7 +1,11 @@
-# BrickBreaker
+# BrickBreaker | [Demo](https://youtu.be/5BeyoiqeHms) | [Play](https://vladyslavstolbov.itch.io/brickbreaker)
 
 ![Unity_GvWFTEIOlC](https://github.com/VladyslavStolbov/BrickBreaker/assets/124466211/83dc4642-f8ed-40fe-86b7-57bd2da72a07)
 
+## Usage
+
+Left mouse button to throw a ball. The arrow keys or "A" and "D" to control the paddle. 
+The goal is to break all the bricks without letting the ball touch the bottom of the screen. 
 
 ## Project Intensions
 
@@ -16,10 +20,6 @@ This project was created with the intention of building a clone game with a focu
 - [X] **Scoring System**: Keep track of the player's score.
 - [X] **Lives System**: Implement a basic lives system.
 - [X] **Minimal Sound Effects**
-
-## Usage
-
-Use the arrow keys or "A" and "D" to control the paddle. The goal is to break all the bricks without letting the ball touch the bottom of the screen.
 
 ## Acknowledgments
 
