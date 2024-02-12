@@ -1,16 +1,15 @@
 # BrickBreaker | [Play](https://vladyslavstolbov.itch.io/brickbreaker) | [Demo](https://youtu.be/5BeyoiqeHms) 
 
-![Unity_GvWFTEIOlC](https://github.com/VladyslavStolbov/BrickBreaker/assets/124466211/83dc4642-f8ed-40fe-86b7-57bd2da72a07)
+![Unity_RButzbSB7i](https://github.com/VladyslavStolbov/BrickBreaker/assets/124466211/647e8b8a-7830-4cdc-a67d-7e99c4be6711)
+
+## Project Intensions
+
+In this Brick Breaker project, my primary focus is on delivering a Minimal Viable Product (MVP) with clean, maintainable code. I am using a to-do list to plan and track my progress, ensuring a structured approach to development. This project serves as a platform for me to enhance my skills and deepen my understanding of Unity and C#, with an emphasis on best practices and efficient coding techniques.
 
 ## Usage
 
 Left mouse button to throw a ball. The arrow keys or "A" and "D" to control the paddle. 
 The goal is to break all the bricks without letting the ball touch the bottom of the screen. 
-
-## Project Intensions
-
-This project was created with the intention of building a clone game with a focus on clear, well-structured code. It served as a practical exercise to improve my Unity and general coding skills. The goal was not only to create a functional game but also to ensure that the code behind it is clean, efficient, and well-organized.
-
 
 ## Features
 
