@@ -1,4 +1,4 @@
-# BrickBreaker | [Demo](https://youtu.be/5BeyoiqeHms) | [Play](https://vladyslavstolbov.itch.io/brickbreaker)
+# BrickBreaker | [Play](https://vladyslavstolbov.itch.io/brickbreaker) | [Demo](https://youtu.be/5BeyoiqeHms) 
 
 ![Unity_GvWFTEIOlC](https://github.com/VladyslavStolbov/BrickBreaker/assets/124466211/83dc4642-f8ed-40fe-86b7-57bd2da72a07)
 
