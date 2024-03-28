@@ -4,7 +4,7 @@
 
 ## Project Intensions
 
-In this Brick Breaker project, my primary focus is on delivering a Minimal Viable Product (MVP) with clean, maintainable code. I am using a to-do list to plan and track my progress, ensuring a structured approach to development. This project serves as a platform for me to enhance my skills and deepen my understanding of Unity and C#, with an emphasis on best practices and efficient coding techniques.
+In this Brick Breaker project, my primary focus is on delivering a Minimal Valuable Product with clean, maintainable code. I am using a to-do list to plan and track my progress, ensuring a structured approach to development. This project serves as a platform for me to enhance my skills and deepen my understanding of Unity and C#, with an emphasis on best practices and efficient coding techniques.
 
 ## Usage
 
